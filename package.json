@@ -1,0 +1,11 @@
+{
+  "name": "voy-search",
+  "version": "0.6.2",
+  "main": "pkg/voy_search_bg.js",
+  "files": [
+    "pkg"
+  ],
+  "scripts": {
+    "prepare": "wasm-pack build --target bundler"
+  }
+}
